@@ -107,3 +107,21 @@ body {
     top: 50vh;
     left: 50vw;
 }
+@media screen and (max-width: 520px) {
+    .col-12 button {
+        padding: 5px 9px;
+        font-size: 2vw;
+    }
+    form .btn1 {
+        font-size: 8px;
+        margin:0;
+    }
+    .brand {
+        display: flex;
+        font-size: 6vw;
+        width: 70%;
+    }
+    .wallet {
+        font-size: 3vw;
+    }
+}
